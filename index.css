@@ -1,0 +1,247 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #F2F4F4;
+}
+/* first main css party */
+
+.main{
+ display: flex;
+ flex-direction: row;
+ gap: 20px;
+ padding: 20px 50px 20px 50px;
+}
+
+.main .first,.sousecond1{
+    background-color: white;
+    border: 1px solid  #F2F4F4;
+}
+
+.main .second{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main .first{
+    width: 600px;
+    color: grey;
+    height: 1130px;
+}
+
+.main .first .img h2{
+    background-image: url(profil.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 300px;
+  background-position: 0px -40px;
+}
+
+.main .first  h2 span{
+  position: absolute;
+  top: 270px;
+  left: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 150;
+  color: black;
+}
+
+
+.first .sousfirst{
+    padding: 20px;
+}
+.first .sousfirst .ssfirst1 #design{
+    padding-top: 10px;
+}
+
+.first .sousfirst .ssfirst1 p{
+    padding-top: 20px;
+}
+
+.first .sousfirst .ssfirst1 #num{
+    padding-bottom: 20px;
+}
+
+.first .sousfirst .ssfirst1 p span{
+    padding-left: 20px;
+}
+
+.first .sousfirst .ssfirst2{
+    position: relative;
+    bottom: 10px;
+
+}
+
+.first .sousfirst .ssfirst2 div{
+    padding-top: 12px;
+
+}
+
+.first .sousfirst .ssfirst2 div p{
+    padding-bottom: 10px;
+}
+
+
+ .sousfirst .ssfirst2 h3 i{
+   font-size: 50px;
+   font-weight: 900px;
+   font-family: Arial, Helvetica, sans-serif;
+   position: relative;
+  top: 20px;
+}
+
+.first .sousfirst .ssfirst3{
+     padding-top: 20px; 
+}
+
+.first .sousfirst .ssfirst3 div p{
+    padding-bottom: 10px;
+}
+
+ .sousfirst .ssfirst3 div #pEng {
+    padding-top: 10px;
+}
+.first .sousfirst .ssfirst2 h3 span{
+    padding-left: 20px;
+}
+
+.sousfirst .ssfirst3 h4 i{
+    font-weight: 900px;
+}
+
+.first .sousfirst .ssfirst3 h4 span{
+    padding-left: 20px;
+}
+
+progress {
+    width: 380px;
+    height : 16px;
+    border: 1px solid rgb(237, 235, 235);
+    border-radius: 9px;
+    background-color: rgb(237, 235, 235);
+ }
+
+progress::-webkit-progress-bar {
+    width: 100%;
+ }
+  progress::-webkit-progress-value {
+    background-color:#008080 ;
+ }
+  
+ #pro progress::-webkit-progress-bar {
+    width: 90%;
+ }
+  progress::-webkit-progress-value {
+    background-color:#008080 ;
+ }
+
+ #pro1 progress::-webkit-progress-bar {
+    width: 80%;
+ } 
+ #pro1 progress::-webkit-progress-value {
+    background-color:#008080 ;
+    width: 80%;
+ }
+
+ #pro2 progress::-webkit-progress-bar {
+    width: 75%;
+ }
+ #pro2 progress::-webkit-progress-value {
+    background-color:#008080 ;
+    width: 75%;
+ }
+
+ #pro3 progress::-webkit-progress-bar {
+    width: 50%;
+ }
+ #pro3 progress::-webkit-progress-value {
+    background-color:#008080 ;
+    width: 50%;
+ }
+
+ .progresse progress {
+    width: 380px;
+    height : 20px;
+    border: 1px solid grey;
+    border-radius: 9px;
+    background-color: rgb(237, 235, 235);
+ }
+
+ #pro5 progress::-webkit-progress-bar {
+    width: 25%;
+ }
+ #pro5 progress::-webkit-progress-value {
+    background-color:#008080 ;
+    width: 25%;
+ }
+/* second css party */
+
+.second .sousecond1{
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second .sousecond1 #div2sousecond1{
+    padding-top: 40px;
+}
+
+.second .sousecond1 .div1sousecond1 h1{
+   padding-bottom: 50px;
+   font-size:30px ;
+   font-weight: 100;
+   color: grey;
+}
+
+.second .sousecond1 .div1sousecond1 h1 span{
+    padding-left: 20px;
+ }
+
+ .second .sousecond1 .div1sousecond1 h3{
+    font-size:18px ;
+    color: rgb(119, 117, 117);
+    text-shadow: 2px 2px 6px #D0D3D4;
+ }
+
+  
+ .second .sousecond1 .div1sousecond1 h3 ,p{
+    padding-bottom: 20px;
+ }
+
+ .second .sousecond1 .div1sousecond1 p{
+    font-size: 14px;
+ }
+
+ .div1sousecond1 #pscd{
+    color: #59c6b0;
+    font-weight: 200;
+ }
+
+ .div1sousecond1 #pscd span{
+  padding-left: 13px;
+ }
+
+ .div1sousecond1 mark{
+    border: 1px solid #59c6b0;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #59c6b0;
+    color: white;
+ }
+/* CSS Footer */
+.footer{
+    background-color:#008080 ;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.footer div a{
+    color: white;
+}
