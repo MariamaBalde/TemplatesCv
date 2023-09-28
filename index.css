@@ -247,7 +247,7 @@ progress::-webkit-progress-bar {
 }
 
 
-@media only screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   *{
     margin: 0;
     padding: 0;
@@ -256,41 +256,69 @@ progress::-webkit-progress-bar {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* padding-left: 20px; */
-    /* padding-right: 3px; */
-    /* padding: 30px; */
    }
 
    .main .first,.sousecond1{
     background-color: white;
     border: 1px solid rgb(212, 207, 207);
     box-shadow: 2px 2px 9px grey;
-        /* margin-right: 3px; */
 }
 
    .main .first{
-    width: 385px;
+    width: 380px;
     color: grey;
-    /* height: 1130px; */
 }
 
 .progresse progress {
     width: 300px;
-    /* height : 20px;
-    border: 1px solid grey;
-    border-radius: 9px;
-    background-color: rgb(237, 235, 235); */
  }
 
  progress {
     width: 300px;
-    /* height : 16px;
-    border: 1px solid rgb(237, 235, 235);
-    border-radius: 9px;
-    background-color: rgb(237, 235, 235); */
  }
 
  .footer{
     padding: 3px;
 }
+  } */
+
+
+
+  @media screen and (max-width: 600px) {
+    *{
+      margin: 0;
+      padding: 0;
+    }
+  .main{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+     }
+  
+     .main .first,.sousecond1{
+      background-color: white;
+      border: 1px solid rgb(212, 207, 207);
+      box-shadow: 2px 2px 9px grey;
   }
+  
+     .main .first{
+      width: 380px;
+      color: grey;
+  }
+  
+
+  .main .sousecond1{
+  width: 320px;
+}
+  .progresse progress {
+      width: 300px;
+   }
+  
+   progress {
+      width: 300px;
+   }
+  
+   .footer{
+      padding: 3px;
+  }
+    }
